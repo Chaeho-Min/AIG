@@ -34,7 +34,7 @@ struct Guide2View: View {
         }
     }
     
-    // MARK: - view를 품은 변수
+    // MARK: - view를 품은 변수들
     
     var question: some View {
         HStack(spacing: 16) {
@@ -204,7 +204,7 @@ struct Guide2View: View {
     
     var text2Bold1 = Text("정확한 부분을 조준해서 탭해야 하는 버튼").fontWeight(.bold)
     var text2Bold2 = Text("제스처는 좀 더 넓은 영역을 조작").fontWeight(.bold)
-    var text2Bold3 = Text("동일한 역할을 하는 제스처").fontWeight(.bold)
+    var text2Bold3 = Text("동일한 역할을 하는 제스처를 지원").fontWeight(.bold)
     
     var text2: some View {
         
@@ -212,13 +212,15 @@ struct Guide2View: View {
             Text("Button vs Gesture.")
                 .font(.title3)
                 .fontWeight(.bold)
-            Text("그럼 버튼이 있는데 왜 제스처를 추가로 지원해야 할까요? \(text2Bold1)과 달리 \(text2Bold2)해도 되기 때문에 버튼과 제스처, 두 가지 방법을 제시하면 대부분의 사용자는 제스처를 택할 것입니다.\n따라서 자주 탭하거나 누르기 어려운 위치에 있는 버튼은 \(text2Bold3)를 지원하는 것을 추천합니다.")
+            Text("그럼 버튼이 있는데 왜 제스처를 추가로 지원해야 할까요? \(text2Bold1)과 달리 \(text2Bold2)해도 되기 때문에 버튼과 제스처, 두 가지 방법을 제시하면 대부분의 사용자는 제스처를 택할 것입니다.\n따라서 자주 탭하거나 누르기 어려운 위치에 있는 버튼은 \(text2Bold3)하는 것을 추천합니다.")
                 .lineSpacing(8)
         }
         .padding(.bottom, 32)
     }
     
 }
+
+// MARK: - Preview
 
 struct Guide2View_Previews: PreviewProvider {
     static var previews: some View {

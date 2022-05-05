@@ -34,7 +34,7 @@ struct Guide4View: View {
         }
     }
     
-    // MARK: - view를 품은 변수
+    // MARK: - view를 품은 변수들
     
     var question: some View {
         HStack(spacing: 16) {
@@ -229,6 +229,8 @@ struct Guide4View: View {
     }
     
 }
+
+// MARK: - Preview
 
 struct Guide4View_Previews: PreviewProvider {
     static var previews: some View {

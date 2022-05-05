@@ -132,9 +132,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5003D4612823B95B004EBC31 /* AIG(Remake) */ = {
+		5003D4612823B95B004EBC31 /* AIG */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5003D4702823B95C004EBC31 /* Build configuration list for PBXNativeTarget "AIG(Remake)" */;
+			buildConfigurationList = 5003D4702823B95C004EBC31 /* Build configuration list for PBXNativeTarget "AIG" */;
 			buildPhases = (
 				5003D45E2823B95B004EBC31 /* Sources */,
 				5003D45F2823B95B004EBC31 /* Frameworks */,
@@ -144,7 +144,7 @@
 			);
 			dependencies = (
 			);
-			name = "AIG(Remake)";
+			name = AIG;
 			productName = "AIG(Remake)";
 			productReference = 5003D4622823B95B004EBC31 /* AIG.app */;
 			productType = "com.apple.product-type.application";
@@ -177,7 +177,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5003D4612823B95B004EBC31 /* AIG(Remake) */,
+				5003D4612823B95B004EBC31 /* AIG */,
 			);
 		};
 /* End PBXProject section */
@@ -401,7 +401,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5003D4702823B95C004EBC31 /* Build configuration list for PBXNativeTarget "AIG(Remake)" */ = {
+		5003D4702823B95C004EBC31 /* Build configuration list for PBXNativeTarget "AIG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5003D4712823B95C004EBC31 /* Debug */,

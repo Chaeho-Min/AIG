@@ -34,7 +34,7 @@ struct Guide1View: View {
         }
     }
     
-    // MARK: - view를 품은 변수
+    // MARK: - view를 품은 변수들
     
     var question: some View {
         HStack(spacing: 16) {
@@ -122,7 +122,7 @@ struct Guide1View: View {
         .padding(.horizontal)
     }
     
-    var text1Bold = Text("명심하세요. 제스처는 보충의 역할을 해야지, 대체를 해버리면 안됩니다.").fontWeight(.bold)
+    var text1Bold = Text("제스처는 보충의 역할을 해야지, 대체를 해버리면 안됩니다.").fontWeight(.bold)
     
     var text1: some View {
         
@@ -130,7 +130,7 @@ struct Guide1View: View {
             Text("Gesture is invisible.")
                 .font(.title3)
                 .fontWeight(.bold)
-            Text("제스처는 눈에 보이지 않는 숨겨진 기능입니다. 따라서 제스처 사용은 온전히 사용자의 ‘예측'에 달려있습니다. 그런데 어떤 기능이 제스처로만 지원하고 눈에 보이는 버튼이 없다면, 제스처 사용에 익숙하지 않은 사용자는 그 기능을 사용하지 못할 것입니다.\n\(text1Bold)")
+            Text("제스처는 눈에 보이지 않는 숨겨진 기능입니다. 따라서 제스처 사용은 온전히 사용자의 ‘예측'에 달려있습니다. 그런데 어떤 기능이 제스처로만 지원하고 눈에 보이는 버튼이 없다면, 제스처 사용에 익숙하지 않은 사용자는 그 기능을 사용하지 못할 것입니다.\n명심하세요. \(text1Bold)")
                 .lineSpacing(8)
         }
     }
@@ -152,7 +152,8 @@ struct Guide1View: View {
                                 Text("Parent Title")
                             }
                             .foregroundColor(.blue)
-                            .frame(maxWidth: .infinity)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(.leading, 8)
                             Text("Title")
                                 .font(.headline)
                             Color.clear.frame(height: 1)
@@ -183,6 +184,8 @@ struct Guide1View: View {
     }
     
 }
+
+// MARK: - Preview
 
 struct Guide1View_Previews: PreviewProvider {
     static var previews: some View {

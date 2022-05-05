@@ -33,14 +33,14 @@ struct Guide3View: View {
         }
     }
     
-    // MARK: - view를 품은 변수
+    // MARK: - view를 품은 변수들
     
     var question: some View {
         HStack(spacing: 16) {
             
             Rectangle()
                 .frame(width: 4)
-            Text("제스처로만 사용 가능한 기능이 있는가?")
+            Text("요소의 역할을 명확히 인식할 수 있는가?")
                 .font(Font.custom("AppleSDGothicNeo-Bold", size: 35))
                 .frame(maxWidth: .infinity, alignment: .leading)
         }
@@ -88,7 +88,7 @@ struct Guide3View: View {
                         .padding(.leading)
                 )
             
-            Text("편집 버튼과 달리 삭제 제스처는 눈에 보이지 않습니다.")
+            Text("여기서 두 가지 설정은 ‘분/초’일까요 ‘시/분’일까요?")
                 .font(.caption)
                 .foregroundColor(.secondary)
         }
@@ -112,6 +112,8 @@ struct Guide3View: View {
     }
     
 }
+
+// MARK: - Preview
 
 struct Guide3View_Previews: PreviewProvider {
     static var previews: some View {
