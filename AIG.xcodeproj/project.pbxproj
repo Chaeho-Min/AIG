@@ -11,14 +11,34 @@
 		5003D4682823B95B004EBC31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5003D4672823B95B004EBC31 /* ContentView.swift */; };
 		5003D46A2823B95C004EBC31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5003D4692823B95C004EBC31 /* Assets.xcassets */; };
 		5003D46D2823B95C004EBC31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5003D46C2823B95C004EBC31 /* Preview Assets.xcassets */; };
+		5003D4752823BBEA004EBC31 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5003D4742823BBEA004EBC31 /* Extension.swift */; };
+		5003D47A2823BC6A004EBC31 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5003D4792823BC6A004EBC31 /* MainView.swift */; };
+		505F23942823C77D007D8C2C /* GuideData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505F23932823C77D007D8C2C /* GuideData.swift */; };
+		505F23962823EA9C007D8C2C /* CustomNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505F23952823EA9C007D8C2C /* CustomNavigationBar.swift */; };
+		505F23982823F090007D8C2C /* GuideContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505F23972823F090007D8C2C /* GuideContent.swift */; };
+		505F239E282400FD007D8C2C /* Guide1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505F239D282400FD007D8C2C /* Guide1View.swift */; };
+		505F23A02824010E007D8C2C /* Guide2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505F239F2824010E007D8C2C /* Guide2View.swift */; };
+		505F23A228240113007D8C2C /* Guide3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505F23A128240113007D8C2C /* Guide3View.swift */; };
+		505F23A428240119007D8C2C /* Guide4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505F23A328240119007D8C2C /* Guide4View.swift */; };
+		505F23A628241E12007D8C2C /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 505F23A528241E12007D8C2C /* CustomCorners.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5003D4622823B95B004EBC31 /* AIG(Remake).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AIG(Remake).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5003D4622823B95B004EBC31 /* AIG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5003D4652823B95B004EBC31 /* AIG_Remake_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIG_Remake_App.swift; sourceTree = "<group>"; };
 		5003D4672823B95B004EBC31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5003D4692823B95C004EBC31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5003D46C2823B95C004EBC31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5003D4742823BBEA004EBC31 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		5003D4792823BC6A004EBC31 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		505F23932823C77D007D8C2C /* GuideData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideData.swift; sourceTree = "<group>"; };
+		505F23952823EA9C007D8C2C /* CustomNavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationBar.swift; sourceTree = "<group>"; };
+		505F23972823F090007D8C2C /* GuideContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideContent.swift; sourceTree = "<group>"; };
+		505F239D282400FD007D8C2C /* Guide1View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guide1View.swift; sourceTree = "<group>"; };
+		505F239F2824010E007D8C2C /* Guide2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guide2View.swift; sourceTree = "<group>"; };
+		505F23A128240113007D8C2C /* Guide3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guide3View.swift; sourceTree = "<group>"; };
+		505F23A328240119007D8C2C /* Guide4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guide4View.swift; sourceTree = "<group>"; };
+		505F23A528241E12007D8C2C /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +63,7 @@
 		5003D4632823B95B004EBC31 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5003D4622823B95B004EBC31 /* AIG(Remake).app */,
+				5003D4622823B95B004EBC31 /* AIG.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,6 +73,8 @@
 			children = (
 				5003D4652823B95B004EBC31 /* AIG_Remake_App.swift */,
 				5003D4672823B95B004EBC31 /* ContentView.swift */,
+				5003D4762823BC42004EBC31 /* View */,
+				5003D4732823BBE1004EBC31 /* Model */,
 				5003D4692823B95C004EBC31 /* Assets.xcassets */,
 				5003D46B2823B95C004EBC31 /* Preview Content */,
 			);
@@ -65,6 +87,46 @@
 				5003D46C2823B95C004EBC31 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5003D4732823BBE1004EBC31 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5003D4742823BBEA004EBC31 /* Extension.swift */,
+				505F23932823C77D007D8C2C /* GuideData.swift */,
+				505F23A528241E12007D8C2C /* CustomCorners.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5003D4762823BC42004EBC31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				505F23992823F1BB007D8C2C /* EntireView */,
+				505F239A2823F1CB007D8C2C /* PartView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		505F23992823F1BB007D8C2C /* EntireView */ = {
+			isa = PBXGroup;
+			children = (
+				5003D4792823BC6A004EBC31 /* MainView.swift */,
+				505F239D282400FD007D8C2C /* Guide1View.swift */,
+				505F239F2824010E007D8C2C /* Guide2View.swift */,
+				505F23A128240113007D8C2C /* Guide3View.swift */,
+				505F23A328240119007D8C2C /* Guide4View.swift */,
+			);
+			path = EntireView;
+			sourceTree = "<group>";
+		};
+		505F239A2823F1CB007D8C2C /* PartView */ = {
+			isa = PBXGroup;
+			children = (
+				505F23952823EA9C007D8C2C /* CustomNavigationBar.swift */,
+				505F23972823F090007D8C2C /* GuideContent.swift */,
+			);
+			path = PartView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +146,7 @@
 			);
 			name = "AIG(Remake)";
 			productName = "AIG(Remake)";
-			productReference = 5003D4622823B95B004EBC31 /* AIG(Remake).app */;
+			productReference = 5003D4622823B95B004EBC31 /* AIG.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +164,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5003D45D2823B95B004EBC31 /* Build configuration list for PBXProject "AIG(Remake)" */;
+			buildConfigurationList = 5003D45D2823B95B004EBC31 /* Build configuration list for PBXProject "AIG" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,8 +199,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				505F23A428240119007D8C2C /* Guide4View.swift in Sources */,
+				505F23A628241E12007D8C2C /* CustomCorners.swift in Sources */,
 				5003D4682823B95B004EBC31 /* ContentView.swift in Sources */,
+				505F239E282400FD007D8C2C /* Guide1View.swift in Sources */,
+				505F23A02824010E007D8C2C /* Guide2View.swift in Sources */,
+				505F23962823EA9C007D8C2C /* CustomNavigationBar.swift in Sources */,
+				505F23A228240113007D8C2C /* Guide3View.swift in Sources */,
+				5003D47A2823BC6A004EBC31 /* MainView.swift in Sources */,
+				505F23982823F090007D8C2C /* GuideContent.swift in Sources */,
 				5003D4662823B95B004EBC31 /* AIG_Remake_App.swift in Sources */,
+				5003D4752823BBEA004EBC31 /* Extension.swift in Sources */,
+				505F23942823C77D007D8C2C /* GuideData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +339,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AIG(Remake)/Preview Content\"";
+				DEVELOPMENT_TEAM = T378897HQ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -280,7 +353,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mch.AIG-Remake-";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AIG;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -295,6 +368,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AIG(Remake)/Preview Content\"";
+				DEVELOPMENT_TEAM = T378897HQ2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -308,7 +382,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.mch.AIG-Remake-";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = AIG;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,7 +392,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5003D45D2823B95B004EBC31 /* Build configuration list for PBXProject "AIG(Remake)" */ = {
+		5003D45D2823B95B004EBC31 /* Build configuration list for PBXProject "AIG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5003D46E2823B95C004EBC31 /* Debug */,
