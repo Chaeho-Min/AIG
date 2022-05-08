@@ -40,6 +40,16 @@ struct MainView: View {
         .frame(maxWidth: .infinity, alignment: .leading)
     }
     
+    var categoryButtons: some View {
+        VStack(alignment: .leading, spacing: 8) {
+
+            ForEach(0..<guideData.count, id: \.self) { index in
+                CategoryButton(selection: $selection, guide: guideData[index])
+            }
+        }
+        .frame(maxWidth: .infinity, alignment: .leading)
+    }
+    
     var categoryGOButton: some View {
         NavigationLink {
             switch selection {
@@ -59,16 +69,6 @@ struct MainView: View {
                 .font(.system(size: 45, weight: .black))
         }
         .padding(.top, 16)
-    }
-    
-    var categoryButtons: some View {
-        VStack(alignment: .leading, spacing: 8) {
-
-            ForEach(0..<guideData.count, id: \.self) { index in
-                CategoryButton(selection: $selection, guide: guideData[index])
-            }
-        }
-        .frame(maxWidth: .infinity, alignment: .leading)
     }
 }
 
@@ -119,10 +119,10 @@ struct CategoryButton: View {
     }
 }
 
-// MARK: - Preview
+ // MARK: - Preview
 
-//struct MainView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        MainView()
-//    }
-//}
+struct MainView_Previews: PreviewProvider {
+    static var previews: some View {
+        MainView()
+    }
+}

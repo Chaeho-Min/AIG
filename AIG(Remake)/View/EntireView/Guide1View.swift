@@ -73,11 +73,14 @@ struct Guide1View: View {
                     
                     Text("할 일")
                         .fontWeight(.semibold)
+                        .foregroundColor(.noDarkModeBlack)
                     Spacer()
                     Text("편집")
                         .frame(width: 44)
+                        .foregroundColor(.noDarkModeBlack)
                     Image(systemName: "plus")
                         .frame(width: 44)
+                        .foregroundColor(.noDarkModeBlack)
                 }
                 .frame(height: 44)
                 .padding(.horizontal, 12)
@@ -88,6 +91,7 @@ struct Guide1View: View {
                         Spacer(minLength: 0)
                         HStack {
                             Text("오늘의 할 일 1")
+                                .foregroundColor(.noDarkModeBlack)
                             Spacer()
                             Capsule()
                                 .fill(
@@ -156,6 +160,7 @@ struct Guide1View: View {
                             .padding(.leading, 8)
                             Text("Title")
                                 .font(.headline)
+                                .foregroundColor(.noDarkModeBlack)
                             Color.clear.frame(height: 1)
                         }
                         .padding(.bottom, 12)

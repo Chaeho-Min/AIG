@@ -80,6 +80,7 @@ struct Guide4View: View {
                         Image(systemName: "rotate.3d").font(.system(size: 22, weight: .medium))
                         Image(systemName: "skew").font(.system(size: 22, weight: .medium))
                     }
+                        .foregroundColor(.noDarkModeBlack)
                 )
             
             Text("기능이 많으면 부담을 느끼고 도망갈 수도 있습니다.")
@@ -115,6 +116,7 @@ struct Guide4View: View {
                         HStack(spacing: 0) {
                             VStack {
                                 Image(systemName: "line.3.horizontal")
+                                    .foregroundColor(.noDarkModeBlack)
                                     .padding(8)
                                     .overlay(
                                         Circle()
@@ -133,13 +135,16 @@ struct Guide4View: View {
                                         Image(systemName: "house")
                                         Text("Main")
                                     }
+                                    .foregroundColor(.noDarkModeBlack)
                                     .font(.system(size: 12, weight: .medium))
                                     .padding(.vertical, 8)
                                     Rectangle()
                                         .frame(height: 1)
                                     HStack(spacing: 6) {
                                         Image(systemName: "chart.xyaxis.line")
+                                            .foregroundColor(.noDarkModeBlack)
                                         Text("Chart")
+                                            .foregroundColor(.noDarkModeBlack)
                                             .overlay(
                                                 Circle()
                                                     .foregroundColor(Color(UIColor.systemGray3))
@@ -179,10 +184,12 @@ struct Guide4View: View {
                                     Text("Main")
                                         .font(.system(size: 10, weight: .medium))
                                 }
+                                .foregroundColor(.noDarkModeBlack)
                                 .padding(.vertical, 4)
                                 .frame(maxWidth: .infinity)
                                 VStack(spacing: 0) {
                                     Image(systemName: "chart.xyaxis.line")
+                                        .foregroundColor(.noDarkModeBlack)
                                         .font(.system(size: 16, weight: .medium))
                                         .overlay(
                                             Circle()
@@ -192,6 +199,7 @@ struct Guide4View: View {
                                                 .offset(x: 12)
                                         )
                                     Text("Chart")
+                                        .foregroundColor(.noDarkModeBlack)
                                         .font(.system(size: 10, weight: .medium))
                                 }
                                 .padding(.vertical, 4)

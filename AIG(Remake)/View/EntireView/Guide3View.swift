@@ -67,17 +67,20 @@ struct Guide3View: View {
                         HStack(spacing: 8) {
                             
                             Text("타이머 설정하기")
+                                .foregroundColor(.noDarkModeBlack)
                             Spacer()
                             HStack(spacing: 0) {
                                 Image(systemName: "chevron.down")
                                     .font(.system(size: 10))
                                 Text("00")
                             }
+                            .foregroundColor(.noDarkModeBlack)
                             HStack(spacing: 0) {
                                 Image(systemName: "chevron.down")
                                     .font(.system(size: 10))
                                 Text("00")
                             }
+                            .foregroundColor(.noDarkModeBlack)
                         }
                         .frame(height: 32)
                         .padding(.trailing)

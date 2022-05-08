@@ -77,10 +77,12 @@ struct Guide2View: View {
                                 Text("상의")
                                     .font(.title3)
                                     .fontWeight(.bold)
+                                    .foregroundColor(.noDarkModeBlack)
                                     .padding(.top, 8)
                                     .padding(.bottom, 7)
                                 Rectangle()
                                     .frame(height: 3)
+                                    .foregroundColor(.noDarkModeBlack)
                             }
                             VStack {
                                 Text("하의")
@@ -140,9 +142,11 @@ struct Guide2View: View {
                                 Text("상의")
                                     .font(.title3)
                                     .fontWeight(.bold)
+                                    .foregroundColor(.noDarkModeBlack)
                                     .padding(.top, 8)
                                     .padding(.bottom, 7)
                                 Rectangle()
+                                    .foregroundColor(.noDarkModeBlack)
                                     .frame(height: 3)
                             }
                             VStack {
