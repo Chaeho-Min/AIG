@@ -61,8 +61,7 @@ var body: some View {
         }
     }
 ```
-구조체의 body 내부르 최대한 간결하게 만드는 것을 목표로 했습니다.   
-따라서 뷰를 웬만하면 변수나 구조체로 뺐습니다.
+구조체의 body 내부르 최대한 간결하게 만드는 것을 목표로 했습니다.
 
 ## 2. 오토레이아웃
 <img width="1131" alt="image" src="https://user-images.githubusercontent.com/75792767/168074398-a69ab622-32aa-4ba6-94b6-6f7d93215ec2.png">
