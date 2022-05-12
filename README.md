@@ -10,3 +10,4 @@
 - SwiftUI
 
 ## :books: Documentation
+- [발표자료](https://github.com/Chaeho-Min/AIG/blob/main/발표자료.pdf)
